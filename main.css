@@ -64,6 +64,7 @@ footer {
 .about__sun-image {
     width: 100px;
     height: 100px;
+    animation: rotation 10s linear infinite;
 }
 
 .about {
@@ -192,4 +193,13 @@ footer {
 
 .footer__links a {
     margin-bottom: 15px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
