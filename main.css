@@ -208,3 +208,57 @@ footer {
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 720px) {
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about h1, .form__container h1 {
+        font-size: 36px;
+        line-height: 40px;
+    } 
+
+    .footer__container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__logo {
+        height: 20px;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about__info {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about__image {
+        width: 280px;
+    }
+
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+
+    .form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
