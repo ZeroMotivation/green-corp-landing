@@ -113,6 +113,18 @@ footer {
     animation-iteration-count: 1;
 }
 
+.features {
+    background-color: white;
+    padding: 115px 60px 115px 60px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
 .form__container {
     width: 550px;
 }
@@ -269,5 +281,9 @@ footer {
     .form {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .features {
+        padding: 50px 10px 50px 10px;
     }
 }
