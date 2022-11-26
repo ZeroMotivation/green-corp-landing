@@ -73,6 +73,7 @@ footer {
 }
 
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -309,7 +310,7 @@ footer {
     margin-top: 60px;
 }
 
-.from label {
+.form label {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -368,6 +369,13 @@ footer {
 
 .footer__links a {
     margin-bottom: 15px;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
 @keyframes rotation {
