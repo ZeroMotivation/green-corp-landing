@@ -38,3 +38,18 @@ document.querySelector('#budget').addEventListener('change', function handleSele
         document.querySelector('.form form').removeChild(otherInput);
     }
 });
+
+function addSmoothScroll(link) {
+    link.addEventListener('click', onLinkClick);
+}
+
+function onLinkClick(event) {
+    event.preventDefault();
+
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(a => addSmoothScroll(a));
+addSmoothScroll(document.querySelector('.more-button'));
